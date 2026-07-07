@@ -71,7 +71,7 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
 origins = [
     "https://app-8z9tbt.example.com",
     # IMPORTANT: Add the actual origin of your exam platform below
-    "https://exam.sanand.workers.dev/tds-2026-05-ga2" 
+    "https://exam.sanand.workers.dev" 
 ]
 
 app.add_middleware(
