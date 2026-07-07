@@ -80,6 +80,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["X-Request-ID"]
 )
 
 # Middle layer: Rate Limit (9 requests per 10 seconds)
